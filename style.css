@@ -1,4 +1,3 @@
-body{  overflow-x: hidden;}
 .services{
     display: flex;
     flex-direction: row;
@@ -31,6 +30,7 @@ body{  overflow-x: hidden;}
     border: none;
     border-radius: 5px;
     cursor: pointer;
+  
 }
 
 .btnx:hover{
@@ -49,4 +49,63 @@ body{  overflow-x: hidden;}
 .work{
     margin-top: 700px;
 }
+}
+.aiahub img{
+    margin-left: 20px;
+}
+.photoshop{
+    width:90%;
+    height:600px;
+    margin-bottom: 30px;
+
+    margin: auto;
+    align-items: center;
+justify-content: space-between;
+padding: 20px;
+display: flex;
+flex-direction: row;
+}
+.leftimg{
+
+
+    height:98%;
+    width: 35%;
+   background-image: url('223452_68420cf2bdbab_1749159154.webp');
+   background-position: center;
+   background-size: cover;
+    
+}
+.centerimgs{
+ height:98%;
+    width: 33%;
+
+    display: flex;
+flex-direction: column;
+padding: 10px;
+
+}
+.tree{
+      
+     background-position: center;
+   background-size: cover;
+    height: 50%;
+    width: 98%;
+    margin: 5px;
+}
+.rightimg{
+   height:98%;
+    width: 30%;
+    background-color: brown;
+    display: flex;
+flex-direction: column;
+padding: 10px;
+ 
+}
+.centerimg1{
+
+    background-image: url('x.png');
+}
+.centerimg2{
+
+    background-image: url("223452_683ea993ab5e9_1748937107.webp");
 }
